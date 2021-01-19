@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+name = "test"
+url = "https://test.pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+setuptools = ">=49.6.0"
+wheel = ">=0.35.1"
+twine = ">=3.2.0"
+python-decouple = ">=3.3"
+pytest = ">=6.1.2"
+testfixtures = ">=6.15.0"
+pyftpdlib = ">=1.5.6"
+
+[packages]
+zeppos-core = ">=1.0.6"
+
+[requires]
+python_version = "3.8"
